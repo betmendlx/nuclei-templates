@@ -1,0 +1,1 @@
+nuclei -t webroot-enumeration.yaml -u http://example.com -var directory_wordlist=dirs.txt -var file_wordlist=files.txt -var webroot_file=webroots.txt
